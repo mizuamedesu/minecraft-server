@@ -12,7 +12,7 @@ services:
       EULA: "TRUE"
       TYPE: "PAPER"
       VERSION: "1.21.7"
-      MEMORY: "8G"
+      MEMORY: "6G"
       MAX_PLAYERS: "20"
       DIFFICULTY: "normal"
       GAMEMODE: "survival"
