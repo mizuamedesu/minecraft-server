@@ -12,7 +12,7 @@ services:
       EULA: "TRUE"
       TYPE: "PAPER"
       VERSION: "1.21.7"
-      MEMORY: "4G"
+      MEMORY: "8G"
       MAX_PLAYERS: "20"
       DIFFICULTY: "normal"
       GAMEMODE: "survival"
@@ -113,11 +113,11 @@ services:
     deploy:
       resources:
         limits:
-          memory: 5G
-          cpus: '2.0'
+          memory: 12G
+          cpus: '4.0'
         reservations:
-          memory: 4G
-          cpus: '1.0'
+          memory: 10G
+          cpus: '3.0'
     
     # ログ設定
     logging:
