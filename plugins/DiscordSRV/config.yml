@@ -1,0 +1,48 @@
+ConfigVersion: 1.30.0
+
+BotToken: "${DISCORD_BOT_TOKEN}"
+
+Channels: {"global": "${DISCORD_CHANNEL_ID}"}
+
+DiscordConsoleChannelId: "${DISCORD_CONSOLE_CHANNEL_ID}"
+
+DiscordInviteLink: "${DISCORD_INVITE_LINK}"
+
+DiscordChatChannelRequireLinkedAccount: ${DISCORD_REQUIRE_LINKED}
+
+DiscordGameStatus: ["${DISCORD_GAME_STATUS}"]
+
+DiscordChatChannelDiscordToMinecraft: true
+DiscordChatChannelMinecraftToDiscord: true
+DiscordChatChannelTruncateLength: 256
+DiscordChatChannelTranslateMentions: true
+DiscordChatChannelAllowedMentions: [user, channel, emote]
+DiscordChatChannelEmojiBehavior: "name"
+DiscordChatChannelEmoteBehavior: "name"
+DiscordChatChannelBroadcastDiscordMessagesToConsole: true
+DiscordChatChannelBlockBots: false
+DiscordChatChannelBlockWebhooks: true
+
+DiscordConsoleChannelLogRefreshRateInSeconds: 5
+DiscordConsoleChannelBlacklistedCommands: ["?", "op", "deop", "execute"]
+DiscordConsoleChannelUseCodeBlocks: true
+DiscordConsoleChannelBlockBots: true
+
+ServerWatchdogEnabled: true
+ServerWatchdogTimeout: 30
+ServerWatchdogMessageCount: 3
+
+ForcedLanguage: none
+MinecraftMentionSound: true
+StatusUpdateRateInMinutes: 2
+DiscordOnlineStatus: ONLINE
+
+MinecraftDiscordAccountLinkedRoleNameToAddUserTo: "Linked"
+MinecraftDiscordAccountLinkedUsePM: true
+MinecraftDiscordAccountLinkedMessageDeleteSeconds: 0
+
+Experiment_WebhookChatMessageDelivery: false
+Experiment_MCDiscordReserializer_ToDiscord: false
+Experiment_MCDiscordReserializer_ToMinecraft: false
+
+Debug: []
