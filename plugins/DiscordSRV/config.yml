@@ -1,16 +1,16 @@
 ConfigVersion: 1.30.0
 
-BotToken: "${DISCORD_BOT_TOKEN}"
+BotToken: "${CFG_DISCORD_BOT_TOKEN}"
 
-Channels: {"global": "${DISCORD_CHANNEL_ID}"}
+Channels: {"global": "${CFG_DISCORD_CHANNEL_ID}"}
 
-DiscordConsoleChannelId: "${DISCORD_CONSOLE_CHANNEL_ID}"
+DiscordConsoleChannelId: "${CFG_DISCORD_CONSOLE_CHANNEL_ID}"
 
-DiscordInviteLink: "${DISCORD_INVITE_LINK}"
+DiscordInviteLink: "${CFG_DISCORD_INVITE_LINK}"
 
-DiscordChatChannelRequireLinkedAccount: ${DISCORD_REQUIRE_LINKED}
+DiscordChatChannelRequireLinkedAccount: ${CFG_DISCORD_REQUIRE_LINKED}
 
-DiscordGameStatus: ["${DISCORD_GAME_STATUS}"]
+DiscordGameStatus: ["${CFG_DISCORD_GAME_STATUS}"]
 
 DiscordChatChannelDiscordToMinecraft: true
 DiscordChatChannelMinecraftToDiscord: true
