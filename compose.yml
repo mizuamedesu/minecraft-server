@@ -40,6 +40,8 @@ services:
         https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/spigot
         https://download.geysermc.org/v2/projects/floodgate/versions/latest/builds/latest/downloads/spigot
         https://download.discordsrv.com/v2/DiscordSRV/DiscordSRV/release/download/latest/jar
+        https://ci.viaversion.com/job/ViaVersion/lastSuccessfulBuild/artifact/build/libs/ViaVersion-5.1.2-SNAPSHOT.jar
+        https://ci.viaversion.com/job/ViaBackwards/lastSuccessfulBuild/artifact/build/libs/ViaBackwards-5.1.1-SNAPSHOT.jar
       
       USE_AIKAR_FLAGS: "true"
       JVM_OPTS: >-
