@@ -39,7 +39,7 @@ services:
       PLUGINS: |
         https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/spigot
         https://download.geysermc.org/v2/projects/floodgate/versions/latest/builds/latest/downloads/spigot
-        https://github.com/DiscordSRV/DiscordSRV/releases/latest/download/DiscordSRV.jar
+        https://download.discordsrv.com/v2/DiscordSRV/DiscordSRV/release/download/latest/jar
       
       USE_AIKAR_FLAGS: "true"
       JVM_OPTS: >-
@@ -84,6 +84,7 @@ services:
       
     volumes:
       - minecraft-data:/data
+
       
     restart: always
     
