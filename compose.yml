@@ -1,3 +1,5 @@
+version: '3.8'
+
 services:
   minecraft:
     image: itzg/minecraft-server:latest
@@ -11,7 +13,7 @@ services:
       # 基本設定
       EULA: "TRUE"
       TYPE: "PAPER"
-      VERSION: "1.21.7"
+      VERSION: "1.20.1"
       MEMORY: "4G"
       MAX_PLAYERS: "20"
       DIFFICULTY: "normal"
@@ -35,8 +37,8 @@ services:
       SIMULATION_DISTANCE: "10"
       
       PLUGINS: |
-        https://download.geysermc.org/v2/projects/geyser/versions/2.2.3-SNAPSHOT/builds/461/downloads/spigot
-        https://download.geysermc.org/v2/projects/floodgate/versions/2.2.2-SNAPSHOT/builds/123/downloads/spigot
+        https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/spigot
+        https://download.geysermc.org/v2/projects/floodgate/versions/latest/builds/latest/downloads/spigot
         https://download.discordsrv.com/v2/DiscordSRV/DiscordSRV/release/download/latest/jar
       
       USE_AIKAR_FLAGS: "true"
