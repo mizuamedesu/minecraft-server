@@ -1,0 +1,3 @@
+Enabled: ${CFG_DISCORD_LINKING_ENABLED}
+LinkingTimeout: ${CFG_DISCORD_LINKING_TIMEOUT}
+UnlinkedKickMessage: "&c事前Discord認証が必要です。Discordサーバーで認証してください。"
